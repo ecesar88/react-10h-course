@@ -3,10 +3,10 @@ import "./App.css";
 import Book from "./components/Book";
 import Booklist from "./components/Booklist";
 
-function App({ books }) {
+function App() {
 	return (
 		<>
-			<Booklist book={books} />;
+			<Booklist />
 		</>
 	);
 }
